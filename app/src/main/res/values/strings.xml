@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="question1">What is the number of continents in the world?</string>
+    <string name="question2">What are the old continents?</string>
+    <string name="question3">What is the largest  continent in the world?</string>
+    <string name="question4">What is 4 * 4?</string>
+</resources>
