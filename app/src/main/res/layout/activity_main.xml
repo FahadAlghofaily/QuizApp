@@ -74,6 +74,7 @@
                 android:text="Europe" />
 
             <CheckBox
+                android:id="@+id/check4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="North America" />
@@ -90,7 +91,9 @@
             android:id="@+id/edit_text_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:maxLines="1" />
+            android:maxLines="1"
+            android:inputType="text"
+            android:hint="i.e: Europe"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -102,7 +105,9 @@
             android:id="@+id/edit_text_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:maxLines="1" />
+            android:maxLines="1"
+            android:inputType="numberDecimal"
+            android:hint="i.e: 20"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
